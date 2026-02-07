@@ -15,11 +15,11 @@ No infrastructure setup. No CI/CD. Just your code on a global CDN.
 
 ```bash
 # Apple Silicon (M1/M2/M3)
-curl -L https://github.com/jothamarinze/shipfe/releases/latest/download/shipfe-darwin-arm64 -o shipfe
+curl -L https://github.com/Jothamcloud/ship/releases/download/v1.0.0/shipfe-darwin-arm64 -o shipfe
 chmod +x shipfe && sudo mv shipfe /usr/local/bin/
 
 # Intel
-curl -L https://github.com/jothamarinze/shipfe/releases/latest/download/shipfe-darwin-amd64 -o shipfe
+curl -L https://github.com/Jothamcloud/ship/releases/download/v1.0.0/shipfe-darwin-amd64 -o shipfe
 chmod +x shipfe && sudo mv shipfe /usr/local/bin/
 ```
 
@@ -27,11 +27,11 @@ chmod +x shipfe && sudo mv shipfe /usr/local/bin/
 
 ```bash
 # x86_64 / AMD64
-curl -L https://github.com/jothamarinze/shipfe/releases/latest/download/shipfe-linux-amd64 -o shipfe
+curl -L https://github.com/Jothamcloud/ship/releases/download/v1.0.0/shipfe-linux-amd64 -o shipfe
 chmod +x shipfe && sudo mv shipfe /usr/local/bin/
 
 # ARM64
-curl -L https://github.com/jothamarinze/shipfe/releases/latest/download/shipfe-linux-arm64 -o shipfe
+curl -L https://github.com/Jothamcloud/ship/releases/download/v1.0.0/shipfe-linux-arm64 -o shipfe
 chmod +x shipfe && sudo mv shipfe /usr/local/bin/
 ```
 
@@ -39,7 +39,7 @@ chmod +x shipfe && sudo mv shipfe /usr/local/bin/
 
 ```powershell
 # Download from GitHub releases
-Invoke-WebRequest -Uri "https://github.com/jothamarinze/shipfe/releases/latest/download/shipfe-windows-amd64.exe" -OutFile "shipfe.exe"
+Invoke-WebRequest -Uri "https://github.com/Jothamcloud/ship/releases/download/v1.0.0/shipfe-windows-amd64.exe" -OutFile "shipfe.exe"
 
 # Add to PATH or move to a directory in your PATH
 Move-Item shipfe.exe C:\Windows\System32\
