@@ -1,0 +1,24 @@
+# Binaries
+dist/
+shipfe
+*.exe
+
+# Test artifacts
+coverage.out
+coverage.html
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Shipfe deployment config (in project directories)
+.shipfe/
+
+# Test projects
+testprojects/
